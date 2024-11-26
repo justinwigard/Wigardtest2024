@@ -1,0 +1,31 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://justinwigard.github.io/Wigardtest2024/test-file/manifest.json",
+    "type": "Manifest",
+    "label": { "en": [ "Test file" ] },
+    "items": [
+      {
+        "id": "https://justinwigard.github.io/Wigardtest2024/test-file/canvas-1/canvas",
+        "type": "Canvas",
+        "duration": 1272.0,
+        "items": [
+          {
+            "id": "https://justinwigard.github.io/Wigardtest2024/test-file/canvas-1/paintings",
+            "type": "AnnotationPage",
+            "items": [
+              {
+                "id": "https://justinwigard.github.io/Wigardtest2024/test-file/canvas-1/painting",
+                "type": "Annotation",
+                "motivation": "painting",
+                "body": {
+                  "id": "https://youtu.be/88mdzNcOHj4?si=LlUzPIFedAhhvdc5",
+                    "duration": 1272.0
+                },
+                "target": "https://justinwigard.github.io/Wigardtest2024/test-file/canvas-1/canvas"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+} 
